@@ -116,7 +116,8 @@
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2; /* Espaciado más compacto */
+  line-height: 1.2;
+  /* Espaciado más compacto */
   color: #838383;
 }
 
@@ -154,4 +155,23 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+}
+
+.content__intro{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  background-image: url("../images/background_recipes.svg");
+  background-color: #0a2750;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.content__videos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
 }
