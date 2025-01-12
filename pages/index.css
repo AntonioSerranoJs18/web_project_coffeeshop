@@ -210,7 +210,7 @@
 .reservation {
   background-image: url("../images/background_reservation.svg");
   background-repeat: no-repeat;
-  height: 150vh;
+  height: 125vh;
   margin: 0;
   background-color: #d9e7ff;
 }
@@ -228,4 +228,8 @@
   max-width: 709px;
   padding-top: 90px;
   justify-content: center;
+}
+
+.reservation__form{
+  align-items: center;
 }
