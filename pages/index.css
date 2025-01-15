@@ -241,7 +241,7 @@
   cursor: pointer;
 }
 
-.form__group--checkbox {
+.form__group_checkbox {
   display: flex;
   margin-top: 30px;
   justify-content: center;
@@ -257,7 +257,7 @@
   align-items: center;
 }
 
-.form__label--checkbox {
+.form__label_checkbox {
   font-size: 14px;
   line-height: 18px;
 }
